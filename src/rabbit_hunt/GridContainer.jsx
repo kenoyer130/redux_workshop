@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Grid from './Grid'
-import cellSelected from '../CellSelectedAction'
+import cellSelected from './actions/CellSelectedAction'
 
 const mapStateToProps = (state) => {
     return {

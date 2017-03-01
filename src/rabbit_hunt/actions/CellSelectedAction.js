@@ -1,4 +1,4 @@
-import store from './store'
+import store from '../store'
 
 export const CELL_SELECTED = 'CELL_SELECTED'
 

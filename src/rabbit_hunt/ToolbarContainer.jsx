@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Toolbar from './Toolbar'
-import resetSelected from '../ResetSelectedAction'
+import resetSelected from './actions/ResetSelectedAction'
 
 const mapStateToProps = (state) => {
     return {
