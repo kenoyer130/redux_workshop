@@ -16,10 +16,10 @@ return class extends React.Component {
   }
 
   getRabbit() {
-    if(image == null) {
+    if(image === null) {
       return null;
-    } else if(image == 'rabbit') {
-      <Rabbit />
+    } else if(image === 'rabbit') {
+      return <Rabbit />
     }
   }
 

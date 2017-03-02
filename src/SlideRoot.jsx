@@ -3,8 +3,8 @@ import React from 'react';
 import Slider from './Slider'
 import SliderHeader from './SliderHeader'
 
-import Welcome from './slides/01_Welcome'
-import Last01 from './slides/02_Last'
+import Slide01 from './slides/01_Slide'
+import Slide99 from './slides/99_Slide'
 
 class SlideRoot extends React.Component {
   
@@ -14,9 +14,9 @@ class SlideRoot extends React.Component {
         <SliderHeader {...this.props} />
         <Slider
           currentIndex={this.props.currentIndex} 
-          onSlidesLoaded={this.props.onSlidesLoaded}> 
-            <Welcome />    
-            <Last01 />                
+          onSlidesLoaded={this.props.onSlidesLoaded}>              
+          <Slide01 />
+          <Slide99 />
         </Slider>
      </div>
     );

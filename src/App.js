@@ -44,9 +44,9 @@ class App extends Component {
 
   onSlidesLoaded = (totalSlides) => {
     this.setState({...this.state, total: totalSlides});
-   /* this.setState({...this.state,
+    this.setState({...this.state,
        total: totalSlides, 
-       currentIndex: totalSlides - 1});*/
+       currentIndex: totalSlides - 1});
   }
 
   onGoChange = (value) => {
