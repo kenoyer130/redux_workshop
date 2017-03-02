@@ -13,6 +13,8 @@ It consists of the following parts
 * The Actions
 
 Don't worry we will go over all of them!
+
+//todo add redux logo
 `);     
 
 export default slide;
