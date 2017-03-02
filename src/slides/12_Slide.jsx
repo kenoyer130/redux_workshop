@@ -6,6 +6,7 @@ const slide =  Slide (`
 **The state of your whole application is stored in an object tree within a single store.**
 
 * Can be serialized and hydrated no extra effort
+
 * Easier to debug
 
 \`\`\`

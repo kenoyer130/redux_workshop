@@ -4,6 +4,7 @@ const slide = Slide(`
 # The Store
 
 * To create the store call createStore in your entry point
+
 * Pass it to the redux **Provider** which wraps your root component
 
 \`\`\`

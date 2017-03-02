@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import Header from './Header'
+import undo from './actions/UndoAction'
 
 const mapStateToProps = (state) => {
     return {
@@ -12,6 +13,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
+          undo: () => {
+            dispatch(undo())
+          }
     }
 }
 

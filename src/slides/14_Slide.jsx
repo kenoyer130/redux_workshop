@@ -6,6 +6,7 @@ const slide =  Slide (`
 **To specify how the state tree is transformed by actions, you write pure reducers.**
 
 * A reducer is a Pure function that takes the previous state and an action, and returns the new state
+
 * Must return a new state, not a modified version of an existing state
 
 \`\`\`

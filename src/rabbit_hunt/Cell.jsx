@@ -4,6 +4,7 @@ import Rabbit from './rabbit.png'
 class Cell extends React.Component {
 
   onclick = () => {
+      // ignore if they already won
       if(this.props.won) {
           return;
       }

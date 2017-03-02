@@ -6,6 +6,7 @@ const mapStateToProps = (state) => {
     return {
         size: state.get("size"),
         won: state.get("won"),
+        lost: state.get("lost"),
         rabbitX: state.get("rabbit").get("x"),
         rabbitY: state.get("rabbit").get("y"),
         selected: state.get("selected").toArray()

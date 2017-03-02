@@ -7,6 +7,7 @@ const slide =  Slide (`
 
 * Views and Network calls and anything else cannot write directly to the state, they can only
 express an intent to write to the state
+
 * All changes are centralized and synchronous (happen in order)
 
 \`\`\`

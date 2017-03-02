@@ -12,7 +12,7 @@ class wrapper extends React.Component {
         return (
             <div>
                 <Body />
-               <img src={Image} alt='Image' />
+               <img src={Image} alt='' />
             </div>
         )
     }

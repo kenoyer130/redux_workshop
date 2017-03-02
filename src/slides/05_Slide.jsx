@@ -1,6 +1,8 @@
+import React from 'react';
 import Slide from '../Slide';
+import Logo from './images/redux.png';
 
-const slide =  Slide (`
+const Body =  Slide (`
 # Enter React-Redux!
 *Note we will call it Redux from now on, but remember Redux does not need to be used with React, it can be used with any view packages.*
 
@@ -14,7 +16,17 @@ It consists of the following parts
 
 Don't worry we will go over all of them!
 
-//todo add redux logo
-`);     
+`); 
 
-export default slide;
+class Wrapper extends React.Component {
+    render() {
+        return (
+            <div>
+                <Body />
+                <img src={Logo} alt='' />
+            </div>
+        );
+    }
+}    
+
+export default Wrapper;
