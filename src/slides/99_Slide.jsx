@@ -1,26 +1,15 @@
+import React from 'react'
 import Slide from '../Slide';
+import Image from './images/containers.png'
 
-const slide =  Slide (`
-# Changes are made with pure functions
+const Body = Slide(`
+# Connected Containers
+* Are HOC wrappers around your presentational Component
+* Consist of three main parts
 
-**To specify how the state tree is transformed by actions, you write pure reducers.**
+/`/`/`
 
-* A reducer is a Pure function that takes the previous state and an action, and returns the new state
-* Must return a new state, not a modified version of an existing state
+/`/`/`
+`);
 
-\`\`\`
-function reducer(state = getDefaultState(), action) {
-
-    if (action.type === CELL_SELECTED) {
-
-        return state
-            .set('tries', action.tries)
-            .set('won', action.won)
-            .set('lost', action.lost)
-            .set("selected", state.get("selected").push(action.selected));
-    }
-}
-\`\`\`
-`);     
-
-export default slide;
+export default Body;
