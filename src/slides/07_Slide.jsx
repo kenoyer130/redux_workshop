@@ -9,7 +9,7 @@ const slide =  Slide (`
 * Designed for large scale enteprise development
 * Other choices such as MobX, Relay/GraphQL
 
-"The best thing about the Javascript ecosystem is there are so many choices. The worst thing about the Javascrip ecosystem is there are so many choices."
+"The best thing about the Javascript ecosystem is there are so many choices. The worst thing about the Javascript ecosystem is there are so many choices."
 `);     
 
 export default slide;
